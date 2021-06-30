@@ -19,8 +19,10 @@ def logo():
     cir2=Circle(Point(150,150),110)
     cir2.setOutline('white')
     cir2.setWidth(4)
+    txt= Text(Point(40,280), 'LOGO')
+    txt.setOutline('indian red')
 
-
+    txt.draw(win)
     cir.draw(win)
     line1.draw(win)
     line2.draw(win)
