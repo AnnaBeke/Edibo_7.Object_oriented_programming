@@ -20,7 +20,7 @@ def logo():
     cir2.setOutline('white')
     cir2.setWidth(4)
     txt= Text(Point(40,280), 'LOGO')
-    txt.setOutline('indian red')
+    txt.setOutline('salmon')
 
     txt.draw(win)
     cir.draw(win)
